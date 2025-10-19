@@ -1,0 +1,62 @@
+:root {
+  --body-background: #e0cbb4;;
+  --footer-background: #b58869;
+  --btn-background-darkest: #6f4e37;
+  --text-color-primary: #0b0803;
+  --text-color-secondary: #fff;
+  --text-color-input: rgba(3, 10, 6, 0.6);
+
+  --font-family: 'Quicksand', sans-serif;
+  --second-family: 'Aboreto', sans-serif;
+  
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color-primary);
+  background-color: var(--body-background);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.container {
+  width: 1342px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
