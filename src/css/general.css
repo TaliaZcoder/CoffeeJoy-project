@@ -55,8 +55,7 @@ section {
 }
 
 .container {
-  width: 1342px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1342px;
+  padding: 0 16px;
   margin: 0 auto;
 }

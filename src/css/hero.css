@@ -1,0 +1,81 @@
+.hero {
+  background-color:bisque;
+  background-image: url(/img/hero.img/hero-mob-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  min-height: 644px;
+  min-width: 320px;
+  max-width: 1440px;
+}
+
+.hero-container {
+  padding: 0 32px;
+}
+
+.hero-title {
+  font-family: var(--second-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--text-color-secondary);
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--text-color-secondary);
+  margin-bottom: 32px;
+}
+
+
+.hero-btn {
+  border-radius: 100px;
+  width: 135px;
+  height: 44px;
+  background-color: var(--btn-background-darkest);
+  color: var(--text-color-secondary);
+  box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/img/hero.img/hero-mob@2x-min.jpg);
+  }
+}
+
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url(/img/hero.img/hero-tab-min.jpg);
+    min-height: 900px;
+  }
+  .hero-container {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/img/hero.img/hero-tab@2x-min.jpg);
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    background-image: url(/img/hero.img/hero-desk-min.jpg);
+  }
+  .hero-container {
+    padding: 0 64px;
+  }
+}
+
+@media (min-width: 1440px) and (min-resolution: 192dpi){
+  .hero {
+    background-image: url(/img/hero.img/hero-desk@2x-min.jpg);
+  }
+}
